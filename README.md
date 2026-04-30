@@ -2,13 +2,13 @@
 Extractor automático de KoboToolbox con Python (limpieza de datos y mapeo de etiquetas) + Tablero de control en Power BI para visualización de cumplimiento (CUMPLE/NO CUMPLE) del proceso BPM en una empresa regulada.
 # 📊 Sistema de Extracción y Visualización KoboToolbox (BPM)
 
-Este proyecto automatiza el ciclo de vida de los datos de inspecciones BPM (Buenas Prácticas de Manufactura): desde la extracción directa de la API de KoboToolbox hasta la visualización de indicadores clave en Power BI.
+Este proyecto automatiza el ciclo de vida de los datos de inspecciones BPM (Buenas Prácticas de Manufactura): desde la extracción directa de la API de KoboToolbox hasta la visualización de indicadores clave en Power BI. En el archivo original los datos pueden ser llenados dependiendo del analista y el turno, manteniendo uan automatizacion y analisis de las areas de interes para mantener una mejora continua en la empresa, los nombres de los analistas son ficticios.
 
 ## 🚀 Características del Proyecto
 *   **Extracción Automatizada:** Script en Python que conecta con la API v2 de KoboToolbox.
 *   **Limpieza de Datos:** Transformación de encabezados técnicos a formatos legibles.
 *   **Seguridad y Privacidad:** 
-    *   **Anonimización:** Las preguntas reales han sido sustituidas por etiquetas genéricas (Pregunta 1, Pregunta 2, etc.) para proteger la confidencialidad del proceso.
+    *   **Anonimización:** Las respuestas y las preguntas se cambiaron con un borrador de prueba, que se lleno con cumple en todos los aspectos, para respetar la privacidad de los datos y simular resultados lo mas aproximados a lo que seria un formulario real, asi tambien, se añadieron mas preguntas ficticias para mostrar una mayor distribucion en los datos y una mejor visualizacion en Power BI.
     *   **Mapeo de Respuestas:** Conversión de códigos técnicos (`A`/`R`) a etiquetas de cumplimiento (`CUMPLE`/`NO CUMPLE`).
 *   **Filtros Inteligentes:** Procesamiento de datos a partir de fechas específicas (Abril 2026).
 *   **Dashboard de Control:** Visualización interactiva en Power BI para el análisis de cumplimiento por áreas.
