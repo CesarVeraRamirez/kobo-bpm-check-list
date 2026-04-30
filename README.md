@@ -8,7 +8,7 @@ Este proyecto automatiza el ciclo de vida de los datos de inspecciones BPM (Buen
 *   **Extracción Automatizada:** Script en Python que conecta con la API v2 de KoboToolbox.
 *   **Limpieza de Datos:** Transformación de encabezados técnicos a formatos legibles.
 *   **Seguridad y Privacidad:** 
-    *   **Anonimización:** Las respuestas y las preguntas se cambiaron con un borrador de prueba, que se lleno con cumple en todos los aspectos, para respetar la privacidad de los datos y simular resultados lo mas aproximados a lo que seria un formulario real, asi tambien, se añadieron mas preguntas ficticias para mostrar una mayor distribucion en los datos y una mejor visualizacion en Power BI.
+    *   **Anonimización:** Las respuestas y las preguntas se cambiaron con un borrador de prueba, donde se ocultaron todas las preguntas, para respetar la privacidad de los datos y simular resultados lo mas aproximados a lo que seria un formulario real.
     *   **Mapeo de Respuestas:** Conversión de códigos técnicos (`A`/`R`) a etiquetas de cumplimiento (`CUMPLE`/`NO CUMPLE`).
 *   **Filtros Inteligentes:** Procesamiento de datos a partir de fechas específicas (Abril 2026).
 *   **Dashboard de Control:** Visualización interactiva en Power BI para el análisis de cumplimiento por áreas.
