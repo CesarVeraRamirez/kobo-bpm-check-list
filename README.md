@@ -20,7 +20,7 @@ Este proyecto automatiza el ciclo de vida de los datos de inspecciones BPM (Buen
 *   **Excel** (como base de datos intermedia)
 
 ## 📁 Estructura del Repositorio
-*   `main.py`: Script principal de extracción y limpieza.
+*   `git hub.py`: Script principal de extracción y limpieza.
 *   `requirements.txt`: Librerías necesarias para ejecutar el código.
 *   `BPM_Dashboard_Demo.pbix`: Archivo de Power BI con el tablero de control.
 *   `data_demo.xlsx`: Ejemplo de la estructura de datos generada (datos anonimizados).
