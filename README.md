@@ -1,7 +1,7 @@
 # kobo-bpm-check-list
 Extractor automático de KoboToolbox con Python (limpieza de datos y mapeo de etiquetas) + Tablero de control en Power BI para visualización de cumplimiento (CUMPLE/NO CUMPLE) del proceso BPM en una empresa regulada.
 # 📊 Sistema de Extracción y Visualización KoboToolbox (BPM)
-Este proyecto automatiza el ciclo de vida de los datos de inspecciones de Buenas Prácticas de Manufactura (BPM): desde la extracción directa vía API de KoboToolbox hasta la visualización de KPIs en Power BI. El sistema consolida datos capturados por diversos analistas y turnos, estandarizando la información para un análisis preciso de las áreas críticas y facilitando la mejora continua. Aunque KoboToolbox permite la descarga manual de archivos, este pipeline elimina el procesamiento manual tedioso y el riesgo de error humano. La solución optimiza un proceso de análisis que tradicionalmente tomaba 4 horas, reduciéndolo a solo 3 minutos.
+Este proyecto automatiza el ciclo de vida de los datos de inspecciones de Buenas Prácticas de Manufactura (BPM): desde la extracción directa vía API de KoboToolbox hasta la visualización de KPIs en Power BI. El sistema consolida datos capturados por diversos analistas y turnos, estandarizando la información para un análisis preciso de las áreas críticas y facilitando la mejora continua. Aunque KoboToolbox permite la descarga manual de archivos, este pipeline elimina el procesamiento manual tedioso y el riesgo de error humano. La solución optimiza un proceso de análisis que tradicionalmente tomaba 2 horas semanales, reduciéndolo a solo 3 minutos.
 
 ## 🚀 Características del Proyecto
 *   **Extracción Automatizada:** Script en Python que conecta con la API v2 de KoboToolbox.
